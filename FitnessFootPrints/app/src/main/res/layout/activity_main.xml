@@ -181,7 +181,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Calorie Meter"
-                    android:backgroundTint="@color/gray"/>
+                    android:backgroundTint="@color/gray"
+                    android:onClick="calorieMeterScreen"/>
 
             </LinearLayout>
 
