@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent in4 = new Intent(MainActivity.this, CalorieMeter.class);
         startActivity(in4);
     }
+
+    public void workoutAppScreen(View view) {
+        Intent in5 = new Intent(MainActivity.this, WorkoutMain.class);
+        startActivity(in5);
+    }
 }
