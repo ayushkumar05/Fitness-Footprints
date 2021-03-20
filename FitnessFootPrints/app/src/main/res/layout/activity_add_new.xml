@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E284D"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Calorie Intake Tracker"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Food you ate today :"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@id/group2"
+        android:layout_below="@id/group1"
+        android:layout_marginBottom="30dp"
+        android:scrollbarThumbVertical="@color/blue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ~ USUALS ~"
+                android:textColor="#50A0AC"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <CheckBox
+                android:id="@+id/rice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Rice"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/chapati"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Chapati"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/dal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Dal"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/milk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Milk"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/bread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Bread"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/egg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Egg"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/choco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Chocolate bar"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ~ FRUITS ~"
+                android:textColor="#50A0AC"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <CheckBox
+                android:id="@+id/apple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Apple"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/banana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Banana"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/grapes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Grapes"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Orange"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/pineapple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Pineapple"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/strawberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Strawberry"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ~ OTHERS ~"
+                android:textColor="#50A0AC"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <CheckBox
+                android:id="@+id/beans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Beans"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/beer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Beer"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/biryani"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Biryani"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/butter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Butter"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cheese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cheese"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Chicken"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/mocha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Coffee (Mocha)"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cola"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/corn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Corn"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/curd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Curd"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/fishcurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Fish Curry"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/kebab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Kebab"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/juice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Juice"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/paneer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Paneer"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Pizza"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ~ SWEET DISHES ~"
+                android:textColor="#50A0AC"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <CheckBox
+                android:id="@+id/gulabJamun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Gulab Jamun"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/iceCream"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Ice Cream"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/jalebi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Jalebi"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+
+            <CheckBox
+                android:id="@+id/rasmalai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Rasmalai"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/workoutRadio"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Today's workout :"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <RadioGroup
+        android:id="@+id/workoutRadio"
+        android:orientation="horizontal"
+        android:layout_above="@id/addnew"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/lightRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:layout_marginEnd="25dp"
+            android:text=" Light"
+            android:textSize="18sp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/moderateRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:text=" Moderate" />
+
+        <RadioButton
+            android:id="@+id/heavyRadio"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Heavy" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addnew"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:text="CALCULATE"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

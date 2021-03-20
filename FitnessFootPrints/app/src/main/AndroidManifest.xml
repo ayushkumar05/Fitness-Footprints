@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessFootPrints">
-        <activity android:name=".StepCounter"></activity>
+        <activity android:name=".CalorieMeter"></activity>
+        <activity android:name=".StepCounter" />
         <activity android:name=".WaterReminder" />
         <activity android:name=".BmiCalculator" />
         <activity android:name=".SplashScreen">
@@ -20,7 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <receiver android:name=".Reciever_Alarm"/>
+        <activity android:name=".AddNewActivity"></activity>
+
+        <receiver android:name=".Reciever_Alarm" />
     </application>
 
 </manifest>

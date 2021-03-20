@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Intent in3 = new Intent(MainActivity.this, StepCounter.class);
         startActivity(in3);
     }
+
+    public void calorieMeterScreen(View view) {
+        Intent in4 = new Intent(MainActivity.this, CalorieMeter.class);
+        startActivity(in4);
+    }
 }
