@@ -75,7 +75,8 @@
             android:layout_marginBottom="10dp"
             android:textColor="@color/white"
             android:layout_marginEnd="10dp"
-            android:text="RESET" />
+            android:text="RESET"
+            android:layout_marginRight="10dp" />
 
         <Button
             android:id="@+id/calculate"
