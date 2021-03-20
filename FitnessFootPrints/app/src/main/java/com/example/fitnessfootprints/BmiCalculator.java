@@ -70,6 +70,7 @@ public class BmiCalculator extends AppCompatActivity {
             Toast.makeText(BmiCalculator.this, " Enter valid values", Toast.LENGTH_SHORT).show();
             height.setText("");
             weight.setText("");
+            msg.setText("");
             value.setText("");
         }
 
