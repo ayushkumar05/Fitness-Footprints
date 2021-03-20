@@ -2,31 +2,31 @@
 "Benchmark" : [
  {
    "title": "Monday",
-   "wod": "10 Pull-ups\n15 Push-ups\n20 Sit-ups\n20 Squats\nComplete all reps of each exercise before moving to the next."
+   "wod": "10 Pull-ups\n15 Push-ups\n20 Squats\n20 Crunches\nTotal Sets : 4"
  },
  {
    "title": "Tuesday",
-   "wod": "20 Pull-ups\n30 Push-ups\n40 Sit-ups\n50 Squats\n5 rounds for time"
+   "wod": "20 Pull-ups\n30 Push-ups\n40 Sit-ups\n50 Squats\nTotal Sets : 3"
  },
  {
    "title": "Wednesday",
-   "wod": "5 Pull-ups\n10 Push-ups\n15 Squats\nEach min on the min for 30 min"
+   "wod": "5 Pull-ups\n10 Push-ups\n15 Squats\n5 Burpees\nTotal Sets : 4"
  },
  {
    "title": "Thursday",
-   "wod": "5 Pull-ups\n10 Push-ups\n15 Squats\nAs many rounds as possible in 20 min"
+   "wod": "20 Jumping Jacks\n10 Bicep Curls\n10 Knee-Ups\nTotal Sets : 3"
  },
  {
    "title": "Friday",
-   "wod": "Deadlift 225 lbs\nHandstand push-ups\n21-15-9 reps, for time"
+   "wod": "Deadlift 225 lbs\n5 Handstand push-ups\nPlanks for 30 Seconds\nTotal Sets :3"
  },
  {
    "title": "Saturday",
-   "wod": "Clean 135 lbs\nRing Dips\n21-15-9 reps, for time"
+   "wod": "4 Knee-Ups\n10 Side Crunches\n5 Burpees\nTotal Sets :4"
  },
  {
    "title": "Sunday",
-   "wod": "Thruster 95 lbs\nPull-ups\n21-15-9 reps, for time"
+   "wod": "50 m Sprint\n10 Pushups\n15 Crunches\nTotal Sets :3"
  }
 ]
 }
