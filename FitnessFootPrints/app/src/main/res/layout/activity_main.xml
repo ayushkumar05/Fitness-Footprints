@@ -29,7 +29,7 @@
             android:layout_height="match_parent"
             android:rowCount="2"
             android:columnCount="2"
-            android:layout_margin="18dp"
+            android:layout_margin="0dp"
             android:alignmentMode="alignMargins"
             android:layout_gravity="center_horizontal"
             android:columnOrderPreserved="false">
