@@ -37,6 +37,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="170dp"
                 android:layout_height="170dp"
+                android:layout_gravity="center"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="5dp"
                 app:cardBackgroundColor="@color/gray"
@@ -45,6 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
+                    android:weightSum="1"
                     android:gravity="center">
                     <ImageView
                         android:layout_width="80dp"
@@ -69,6 +71,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="25dp"
+                android:layout_gravity="center"
                 app:cardElevation="5dp"
                 app:cardBackgroundColor="@color/gray"
                 android:layout_margin="10dp">
@@ -76,6 +79,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
+                    android:weightSum="1"
                     android:gravity="center">
                     <ImageView
                         android:layout_width="80dp"
@@ -97,8 +101,10 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="170dp"
                 android:layout_height="170dp"
+                android:layout_gravity="center"
                 app:cardCornerRadius="25dp"
                 app:cardElevation="5dp"
+                android:weightSum="1"
                 app:cardBackgroundColor="@color/gray"
                 android:layout_margin="10dp">
                 <LinearLayout
@@ -128,6 +134,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 app:cardCornerRadius="25dp"
+                android:layout_gravity="center"
                 app:cardElevation="5dp"
                 app:cardBackgroundColor="@color/gray"
                 android:layout_margin="10dp">
@@ -135,6 +142,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="173dp"
+                    android:weightSum="1"
                     android:gravity="center"
                     android:orientation="vertical">
 
