@@ -14,7 +14,10 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Message"/>
+        android:hint="Message"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
 
     <TimePicker
         android:id="@+id/timePicker"
