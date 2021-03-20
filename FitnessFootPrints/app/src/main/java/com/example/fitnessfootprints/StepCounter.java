@@ -52,8 +52,7 @@ public class StepCounter extends AppCompatActivity {
                     progressBar.setProgress(prper);
                     float cbur = (steps*4)/100;
                     cabur.setText(String.valueOf(cbur));
-
-
+                    
                 }
             }
 
