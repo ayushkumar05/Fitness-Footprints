@@ -15,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-   
-
-
     public void bmiscreen(View view) {
         Intent in1 = new Intent(MainActivity.this, BmiCalculator.class);
         startActivity(in1);

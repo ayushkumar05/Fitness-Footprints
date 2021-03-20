@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
+    android:background="@color/black"
     tools:context=".DetailActivity">
     <TextView
         android:id="@+id/title_tv"
@@ -14,7 +15,8 @@
         android:textSize="36sp"
         android:text="Title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
     <TextView
         android:id="@+id/wod_tv"
         android:gravity="left"
@@ -22,7 +24,8 @@
         android:textSize="24sp"
         android:text="Title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +33,8 @@
         android:text="TIMER"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
 
     <Chronometer
         android:id="@+id/chronometer"
@@ -39,7 +43,8 @@
         android:layout_gravity="center"
         android:format="00:00"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -51,7 +56,8 @@
             android:id="@+id/bt_start"
             android:layout_margin="10dp"
             android:text="Start"
-            android:onClick="startChronometer"/>
+            android:onClick="startChronometer"
+            android:background="@drawable/btn_bg"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +65,8 @@
             android:layout_margin="10dp"
             android:layout_toRightOf="@+id/bt_pause"
             android:text="Stop"
-            android:onClick="resetChronometer"/>
+            android:onClick="resetChronometer"
+            android:background="@drawable/btn_bg"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +74,8 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="10dp"
             android:text="Pause"
-            android:onClick="pauseChronometer"/>
+            android:onClick="pauseChronometer"
+            android:background="@drawable/btn_bg"/>
     </RelativeLayout>
 
 

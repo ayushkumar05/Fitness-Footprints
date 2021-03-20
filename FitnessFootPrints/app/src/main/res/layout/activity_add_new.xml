@@ -392,7 +392,7 @@
             android:textColor="@color/blue"
             android:layout_marginEnd="25dp"
             android:text=" Light"
-            android:textSize="18sp"
+            android:textSize="12sp"
             android:checked="true" />
 
         <RadioButton
@@ -400,14 +400,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="25dp"
-            android:textSize="18sp"
+            android:textSize="12sp"
             android:textColor="@color/blue"
             android:text=" Moderate" />
 
         <RadioButton
             android:id="@+id/heavyRadio"
             android:textColor="@color/blue"
-            android:textSize="18sp"
+            android:textSize="12sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Heavy" />
