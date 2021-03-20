@@ -10,10 +10,13 @@ import android.hardware.SensorManager;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
+
 public class StepCounter extends AppCompatActivity {
 
     private TextView textView;
     private TextView progper;
+    private TextView cabur;
     private double MagnitudePrevious = 0;
     private Integer steps = 0;
     private Integer prper = 0;
@@ -24,6 +27,7 @@ public class StepCounter extends AppCompatActivity {
         setContentView(R.layout.activity_step_counter);
         textView = findViewById(R.id.steps);
         progper = findViewById(R.id.progress_percentage);
+        cabur = findViewById(R.id.calburn);
         progressBar = findViewById(R.id.prog);
         SensorManager sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         Sensor sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -46,6 +50,10 @@ public class StepCounter extends AppCompatActivity {
                     prper = (int)prper;
                     progper.setText(prper.toString().concat("%"));
                     progressBar.setProgress(prper);
+                    float cbur = (steps*4)/100;
+                    cabur.setText(String.valueOf(cbur));
+
+
                 }
             }
 
