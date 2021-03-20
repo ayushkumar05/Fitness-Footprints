@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69bcce"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/toptitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="BMI Calculator"
+        android:textColor="#2b335c"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/toptitle"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Enter Height in Meters"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/Height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Enter Weight in Kilograms"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/Weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:onClick="calculate"
+            android:text="Calculate BMI"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Your BMI is"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/bmi_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="64sp"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/message_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+</RelativeLayout>
