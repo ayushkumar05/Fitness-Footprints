@@ -8,7 +8,8 @@ We even made a special pedometer that works without needing your location data.
 
 
 <img src="https://user-images.githubusercontent.com/37260279/111908531-a5149000-8a7f-11eb-93d6-c022aeb5071d.png" width="250" height="500" hspace="10"> <img src="https://user-images.githubusercontent.com/37260279/111909088-df7f2c80-8a81-11eb-8aac-c5e78eb4ff21.png" width="250" height="500" hspace="50">
-<img src="https://user-images.githubusercontent.com/37260279/111909116-f4f45680-8a81-11eb-89a0-bf80db1e77a0.png" width="250" height="500"> <img src="https://user-images.githubusercontent.com/37260279/111909106-ee65df00-8a81-11eb-8ea5-d7b4db225897.png" width="250" height="500" hspace="10" >
-<img src="https://user-images.githubusercontent.com/37260279/111909807-b8762a00-8a84-11eb-9041-9160cdbe3e55.png" width="250" height="500" hspace="50">
-<img src="https://user-images.githubusercontent.com/37260279/111909863-fa06d500-8a84-11eb-9fed-61a9c33e38ad.png" width="250" height="500">
+
+<img src="https://user-images.githubusercontent.com/37260279/111909116-f4f45680-8a81-11eb-89a0-bf80db1e77a0.png" width="250" height="500" hspace="10"> <img src="https://user-images.githubusercontent.com/37260279/111909106-ee65df00-8a81-11eb-8ea5-d7b4db225897.png" width="250" height="500" hspace="50" >
+
+<img src="https://user-images.githubusercontent.com/37260279/111909807-b8762a00-8a84-11eb-9041-9160cdbe3e55.png" width="250" height="500" hspace="10"> <img src="https://user-images.githubusercontent.com/37260279/111909863-fa06d500-8a84-11eb-9fed-61a9c33e38ad.png" width="250" height="500" hspace="50">
 
