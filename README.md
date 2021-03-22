@@ -13,3 +13,4 @@ We even made a special pedometer that works without needing your location data.
 
 <img src="https://user-images.githubusercontent.com/37260279/111909807-b8762a00-8a84-11eb-9041-9160cdbe3e55.png" width="250" height="500" hspace="10"> <img src="https://user-images.githubusercontent.com/37260279/111909863-fa06d500-8a84-11eb-9fed-61a9c33e38ad.png" width="250" height="500" hspace="50">
 
+MozoHack 2.1 Project
